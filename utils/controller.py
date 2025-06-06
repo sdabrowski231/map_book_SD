@@ -37,8 +37,7 @@ def get_coordinates(city_name:str)->list:
     response_html=BeautifulSoup(response,"html.parser")
     longitude=float(response_html.select(".longitude")[1].text.replace(",","."))
     latitude=float(response_html.select(".latitude")[1].text.replace(",","."))
-    print(longitude)
-    print(latitude)
+
     return [latitude, longitude]
 
 

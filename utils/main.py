@@ -6,7 +6,7 @@ from utils.model import users
 def main():
     while True:
         print('============MENU=============')
-        print('0 - zakończ program')
+        print('0 - zakończe program')
         print('1 - wyświetl co u znajomych')
         print('2 - dodaj znajomego')
         print('3 - usuń znajomego')
